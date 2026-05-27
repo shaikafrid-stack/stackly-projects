@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #fefdf8;
+    color: #1a1a1a;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-charcoal-900 text-cream-50 px-6 py-3 font-body font-medium text-sm tracking-wide
+           hover:bg-charcoal-700 active:scale-95 transition-all duration-200 cursor-pointer;
+  }
+  .btn-secondary {
+    @apply border border-charcoal-900 text-charcoal-900 px-6 py-3 font-body font-medium text-sm tracking-wide
+           hover:bg-charcoal-900 hover:text-cream-50 active:scale-95 transition-all duration-200 cursor-pointer;
+  }
+  .btn-amber {
+    @apply bg-amber text-white px-6 py-3 font-body font-medium text-sm tracking-wide
+           hover:bg-amber-dark active:scale-95 transition-all duration-200 cursor-pointer;
+  }
+  .card {
+    @apply bg-white shadow-card hover:shadow-card-hover transition-all duration-300;
+  }
+  .input-field {
+    @apply w-full border border-gray-200 px-4 py-3 font-body text-sm focus:outline-none focus:border-charcoal-900 transition-colors duration-200 bg-white;
+  }
+  .section-title {
+    @apply font-display text-3xl md:text-4xl font-medium text-charcoal-900;
+  }
+  .tag {
+    @apply inline-block text-xs font-mono tracking-widest uppercase text-amber bg-amber/10 px-2 py-1;
+  }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+  .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
+}
+
+/* Custom scrollbar for cart */
+.cart-scroll::-webkit-scrollbar { width: 4px; }
+.cart-scroll::-webkit-scrollbar-track { background: #f1f1f1; }
+.cart-scroll::-webkit-scrollbar-thumb { background: #d97706; }
