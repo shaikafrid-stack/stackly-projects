@@ -1,0 +1,10 @@
+const router = require('express').Router();
+const { createTicket, getTickets, getTicket, updateTicket, deleteTicket } = require('../controllers/ticketController');
+const { addComment, getComments } = require('../controllers/commentController');
+const { protect, authorize } = require('../middlewares/auth');
+router.use(protect);
+router.route('/').get(getTickets).post(authorize('customer'), createTicket);
+router.route('/:id').get(getTicket).put(authorize('admin', 'agent'), updateTicket).delete(authorize('admin'), deleteTicket);
+router.route('/:id/comment').post(addComment);
+router.route('/:id/comments').get(getComments);
+module.exports = router;
