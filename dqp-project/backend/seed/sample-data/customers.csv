@@ -1,0 +1,21 @@
+customer_id,customer_name,email,age,signup_date,country,is_active
+1,John Smith,john.smith@example.com,34,2023-01-15,USA,true
+2,Maria Garcia,maria.garcia@example.com,29,2023-02-20,Spain,true
+3,Wei Chen,wei.chen@example.com,,2023-03-05,China,false
+4,Priya Patel,priya.patel@example.com,41,2023-01-15,India,true
+5,John Smith,john.smith@example.com,34,2023-01-15,USA,true
+6,Ahmed Hassan,,38,2023-04-11,Egypt,true
+7,Lucia Rossi,lucia.rossi@example.com,abc,2023-05-19,Italy,false
+8,Tom Becker,tom.becker@example.com,27,2023-06-02,Germany,true
+9,Sara Kim,sara.kim@example.com,31,,South Korea,true
+10,Ivan Petrov,ivan.petrov@example.com,45,2023-07-23,Russia,true
+11,Emma Wilson,emma.wilson@example.com,26,2023-08-14,UK,true
+12,Noah Brown,noah.brown@example.com,52,2023-09-01,USA,false
+13,Olivia Davis,olivia.davis@example.com,,2023-09-15,Canada,true
+14,Liam Moore,liam.moore@example.com,33,2023-10-05,Australia,true
+15,Ava Taylor,ava.taylor@example.com,29,2023-10-20,USA,true
+16,Ethan Anderson,ethan.anderson@example.com,60,2023-11-02,USA,yes
+17,Sophia Thomas,sophia.thomas@example.com,24,2023-11-18,France,true
+18,Mason Jackson,mason.jackson@example.com,37,2023-12-01,USA,false
+19,Isabella White,isabella.white@example.com,45,2024-01-09,USA,true
+20,James Harris,james.harris@example.com,,2024-01-22,USA,true
