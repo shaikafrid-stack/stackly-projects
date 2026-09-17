@@ -1,0 +1,23 @@
+{
+  "columns": [
+    { "name": "Customer Name", "dataType": "String" },
+    { "name": "City", "dataType": "String" },
+    { "name": "Amount", "dataType": "String" },
+    { "name": "Order Date", "dataType": "String" },
+    { "name": "Status", "dataType": "String" }
+  ],
+  "rows": [
+    { "Customer Name": " John Smith ", "City": "New York", "Amount": "100.456", "Order Date": "2025-01-01", "Status": "completed" },
+    { "Customer Name": "jane doe", "City": null, "Amount": "245.2", "Order Date": "2025-01-02", "Status": "COMPLETED" },
+    { "Customer Name": " Mike Brown", "City": "Chicago ", "Amount": "75.999", "Order Date": "2025-01-02", "Status": "pending" },
+    { "Customer Name": "Mike Brown", "City": "Chicago", "Amount": "75.999", "Order Date": "2025-01-02", "Status": "pending" },
+    { "Customer Name": "Sara Lee", "City": "Austin", "Amount": null, "Order Date": "2025-01-03", "Status": "completed" },
+    { "Customer Name": "Tom Hardy ", "City": "Seattle", "Amount": "500.005", "Order Date": "2025-01-03", "Status": "cancelled" },
+    { "Customer Name": "  Nina Patel", "City": "Boston", "Amount": "60", "Order Date": "2025-01-04", "Status": "completed" },
+    { "Customer Name": "Chris Evans", "City": null, "Amount": "310.75", "Order Date": "2025-01-04", "Status": "pending" },
+    { "Customer Name": "Anna White", "City": "Denver", "Amount": "89.10", "Order Date": "2025-01-05", "Status": "COMPLETED" },
+    { "Customer Name": "Leo King", "City": "Miami", "Amount": "150.333", "Order Date": "2025-01-05", "Status": "completed" },
+    { "Customer Name": "Leo King", "City": "Miami", "Amount": "150.333", "Order Date": "2025-01-05", "Status": "completed" },
+    { "Customer Name": "Maya Roy", "City": "Phoenix", "Amount": "42.5", "Order Date": "2025-01-06", "Status": "pending" }
+  ]
+}

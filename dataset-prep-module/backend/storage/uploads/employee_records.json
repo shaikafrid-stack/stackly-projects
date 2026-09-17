@@ -1,0 +1,22 @@
+{
+  "columns": [
+    { "name": "Employee Name", "dataType": "String" },
+    { "name": "Department", "dataType": "String" },
+    { "name": "Salary", "dataType": "String" },
+    { "name": "Join Date", "dataType": "String" },
+    { "name": "Email", "dataType": "String" },
+    { "name": "Active", "dataType": "String" }
+  ],
+  "rows": [
+    { "Employee Name": "Robert Fox", "Department": "Engineering", "Salary": "75000", "Join Date": "2020-04-01", "Email": "robert.fox@corp.com", "Active": "true" },
+    { "Employee Name": " Wade Warren", "Department": "Sales", "Salary": "62000.5", "Join Date": "2019-07-15", "Email": "wade.warren@corp.com", "Active": "true" },
+    { "Employee Name": "Esther Howard", "Department": null, "Salary": "58000", "Join Date": "2021-01-10", "Email": "esther.howard@corp.com", "Active": "false" },
+    { "Employee Name": "Cameron Will", "Department": "Engineering", "Salary": "81000", "Join Date": "2018-11-20", "Email": "cameron.will@corp.com", "Active": "true" },
+    { "Employee Name": "Cameron Will", "Department": "Engineering", "Salary": "81000", "Join Date": "2018-11-20", "Email": "cameron.will@corp.com", "Active": "true" },
+    { "Employee Name": "Brooklyn Simmons", "Department": "Marketing", "Salary": null, "Join Date": "2022-03-05", "Email": "brooklyn.s@corp.com", "Active": "true" },
+    { "Employee Name": "Jenny Wilson", "Department": "HR", "Salary": "54000", "Join Date": "2020-09-25", "Email": "jenny.wilson@corp.com", "Active": "false" },
+    { "Employee Name": "Guy Hawkins ", "Department": "Finance", "Salary": "69000.25", "Join Date": "2017-06-12", "Email": "guy.hawkins@corp.com", "Active": "true" },
+    { "Employee Name": "Kathryn Murphy", "Department": "Engineering", "Salary": "93000", "Join Date": "2016-02-28", "Email": "kathryn.m@corp.com", "Active": "true" },
+    { "Employee Name": "Ralph Edwards", "Department": "Sales", "Salary": "60000", "Join Date": "2023-05-17", "Email": "ralph.edwards@corp.com", "Active": "true" }
+  ]
+}

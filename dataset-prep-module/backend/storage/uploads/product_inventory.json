@@ -1,0 +1,21 @@
+{
+  "columns": [
+    { "name": "Product Name", "dataType": "String" },
+    { "name": "Category", "dataType": "String" },
+    { "name": "Stock Qty", "dataType": "String" },
+    { "name": "Unit Price", "dataType": "String" },
+    { "name": "Warehouse", "dataType": "String" }
+  ],
+  "rows": [
+    { "Product Name": " Wireless Mouse", "Category": "Electronics", "Stock Qty": "150", "Unit Price": "19.999", "Warehouse": "W1" },
+    { "Product Name": "USB-C Cable", "Category": "Electronics", "Stock Qty": "300", "Unit Price": "8.5", "Warehouse": "W1" },
+    { "Product Name": "Office Chair", "Category": "Furniture", "Stock Qty": null, "Unit Price": "120.00", "Warehouse": "W2" },
+    { "Product Name": "Desk Lamp", "Category": "Furniture", "Stock Qty": "80", "Unit Price": "24.995", "Warehouse": "W2" },
+    { "Product Name": "Desk Lamp", "Category": "Furniture", "Stock Qty": "80", "Unit Price": "24.995", "Warehouse": "W2" },
+    { "Product Name": "Notebook Pack", "Category": "Stationery", "Stock Qty": "500", "Unit Price": "3.25", "Warehouse": "W3" },
+    { "Product Name": " Ballpoint Pens", "Category": "Stationery", "Stock Qty": "1000", "Unit Price": "0.5", "Warehouse": "W3" },
+    { "Product Name": "Monitor Stand", "Category": null, "Stock Qty": "60", "Unit Price": "34.499", "Warehouse": "W1" },
+    { "Product Name": "Keyboard", "Category": "Electronics", "Stock Qty": "90", "Unit Price": "45.0", "Warehouse": "W1" },
+    { "Product Name": "Whiteboard", "Category": "Office Supplies", "Stock Qty": "20", "Unit Price": "58.75", "Warehouse": "W2" }
+  ]
+}
