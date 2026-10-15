@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background: #000;
+  font-family: 'Lato', system-ui, sans-serif;
+  overflow: hidden;
+}
+
+.artboard {
+  position: absolute;
+  width: 1134px;
+  height: 638px;
+  transform-origin: 0 0;
+  background: #000 url('/bg.jpg') no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+}
+.abs {
+  position: absolute;
+}
+.ctr {
+  position: absolute;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  text-align: center;
+}

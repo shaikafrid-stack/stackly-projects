@@ -7,7 +7,7 @@ import AppLayout from './components/AppLayout';
 
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
-import Profile from './pages/Profile';
+import Profile from './`1qd sssssss   `1pages/Profile';
 import DatasetList from './pages/DatasetList';
 import DatasetWorkspace from './pages/workspace/DatasetWorkspace';
 import GlobalHistory from './pages/GlobalHistory';
